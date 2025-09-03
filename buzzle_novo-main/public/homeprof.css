@@ -58,7 +58,7 @@ aside {
     width: 100%;
     height: 100%;
     background-image: linear-gradient(#e4e4e4, #fdfdfd, #fdfdfd, #fdfdfd, #fdfdfd);
-} 
+}
 
 #secnav{
     width: 100%;
@@ -133,12 +133,6 @@ main {
     border-radius: 2rem 0 0 0;
 }
 
-h2{
-    position:relative ;
-    margin-top: 50%;
-    right:10%
-}
-
 #fundo {
     width: 100%;
     height: 20rem;
@@ -187,8 +181,8 @@ h2{
     color: #3a1c12;
     font-family: buz1;
     font-size: 2rem;
-    margin-left: 2%;
-    margin-top: 1%;
+    margin-left: 2rem;
+    margin-top: 1rem;
     width: 100%;
 }
 
@@ -234,13 +228,6 @@ h2{
 }
 
 .divatv{
-    background-image: url('imagens/deutudoerrado.webp');
-    background-size: contain; /* ou contain, ou um tamanho específico */
-    background-repeat: no-repeat; /* Para não repetir a imagem */
-    
-    
-    position:relative;
-    top: 10%;
     width: 15rem;
     height: 15rem;
     background-color: #fdfdfd;
@@ -250,10 +237,6 @@ h2{
     flex-grow: 0;
     cursor: pointer;
     transition: 0.5s;
-
-
-
-
 }
 
 .divatv:hover{
@@ -265,7 +248,7 @@ footer {
     grid-area: footer;
     position: relative;
     width: 100%;
-    height: 10rem;
+    height: 15rem;
     background-image: linear-gradient(#fdfdfd, #e4e4e4);
 }
 
