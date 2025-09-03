@@ -133,10 +133,10 @@ main {
     border-radius: 2rem 0 0 0;
 }
 
-h4{
+h2{
     position:relative ;
     margin-top: 50%;
-    right:25%
+    right:10%
 }
 
 #fundo {
@@ -234,10 +234,13 @@ h4{
 }
 
 .divatv{
-    background-image: url('imagens/marsela1.png');
+    background-image: url('imagens/deutudoerrado.webp');
     background-size: contain; /* ou contain, ou um tamanho específico */
     background-repeat: no-repeat; /* Para não repetir a imagem */
-    background-position: center; /* Para centralizar */
+    
+    
+    position:relative;
+    top: 10%;
     width: 15rem;
     height: 15rem;
     background-color: #fdfdfd;
@@ -247,6 +250,10 @@ h4{
     flex-grow: 0;
     cursor: pointer;
     transition: 0.5s;
+
+
+
+
 }
 
 .divatv:hover{
