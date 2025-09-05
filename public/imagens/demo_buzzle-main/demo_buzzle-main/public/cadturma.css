@@ -1,0 +1,84 @@
+:root {
+    --amarelo: #ffda33;
+    --branco: #f2f2f2;
+    --marrom: #613a18;
+    --azul-escuro: #120c30;
+}
+
+body {
+    background-image: url(imagens/colmeia2.png);
+    font-family: 'Segoe UI', sans-serif;
+    color: var(--marrom);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.retorno{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2vh;
+    font-size: 1.5rem;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.retorno:hover{
+    border: 0.2rem solid #ffda33;
+    scale: 110%;
+}
+
+.container {
+    background: var(--branco);
+    padding: 40px;
+    border-radius: 20px;
+    border: solid 4px #ffda33;;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: var(--marrom);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid var(--marrom);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: var(--amarelo);
+    color: var(--azul-escuro);
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffd000;
+}

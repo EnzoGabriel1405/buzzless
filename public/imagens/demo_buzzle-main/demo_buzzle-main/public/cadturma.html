@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Turma - Buzzle</title>
+    <link rel="stylesheet" href="cadturma.css">
+</head>
+<body>
+    <a href="homeprof.html"><button class="retorno">&#10094;</button></a>
+    <div class="container">
+        <h1>Cadastrar Turma</h1>
+        <form action="/turma" method="post">
+            <label for="nome">Nome da Turma:</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: 5º Ano A" required>
+
+            <label for="ano">Descrição da Turma:</label>
+            <input type="text" id="desc" name="desc" placeholder="Insira a descrição (opcional)" required>
+
+            <button type="button" onclick="cadastrarTurma(event)">Cadastrar</button>
+        </form>
+    </div>
+    <script src="cadturma.js"></script>
+
+</body>
+</html>
