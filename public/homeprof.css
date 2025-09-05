@@ -135,7 +135,7 @@ main {
 
 .letra{
     position: relative;
-    margin-top: 35%;
+    margin-top: 46%;
 }
 
 .prof{
@@ -148,9 +148,20 @@ main {
     position: relative;
     margin-top: 0%;
     left: 30%;
-    text-align: ;
-
 }
+
+.prazo{
+    position: relative;
+    margin-top: 0%;
+    right: 30%;
+}
+
+.nota{
+    position: relative;
+    margin-top: 0%;
+    left: 30%;
+}
+
 #fundo {
     width: 100%;
     height: 20rem;
