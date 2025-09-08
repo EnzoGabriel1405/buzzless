@@ -257,7 +257,7 @@ main {
 }
 
 .divatv{
-    background-image: url('imagens/errado.webp');
+    background-image: url('imagens/errado.png');
     background-size: contain; /* ou contain, ou um tamanho específico */
     background-repeat: no-repeat; /* Para não repetir a imagem */
     
