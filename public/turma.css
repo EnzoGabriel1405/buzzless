@@ -83,6 +83,11 @@ aside {
     cursor: pointer;
 }
 
+.navbut:hover{
+    filter: brightness(95%);
+    border: 0.25rem solid #ffda33;
+}
+
 #astitulo{
     text-align: center;
     color: #3a1c12;
